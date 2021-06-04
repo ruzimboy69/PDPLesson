@@ -1,0 +1,35 @@
+.clock{
+    width: 500px;
+    height: 500px;
+    background-image: url("../images/siferblat.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.hh,.mm,.ss{
+    width: 4px;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+}
+.hh::before,.mm::before, .ss::before{
+    width: 100%;
+    content: "";
+    display: block;
+}
+.hh::before{
+    background-color: #0b2e13;
+    height: 40%;
+    margin-top: 56px;
+}
+.mm::before{
+    height: 45%;
+    margin-top: 23px;
+    background-color: #4e555b;
+}
+.ss::before{
+    height: 50%;
+    background-color: indianred;
+}

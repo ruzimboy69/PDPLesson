@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "Open Sans Light";
+    src: url("../fonts/OpenSans-Light.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Open Sans ExtraBold";
+    src: url("../fonts/OpenSans-ExtraBold.ttf") format("truetype");
+}
+
+body{
+    font-family: "Open Sans Light", sans-serif;
+}

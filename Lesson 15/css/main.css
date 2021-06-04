@@ -1,0 +1,292 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: "Montserrat",sans-serif;
+  padding: 0;
+  margin: 0; }
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px; }
+
+.wrapper-fluid {
+  width: 100%;
+  padding: 0 15px; }
+
+.block.block-no-wrap {
+  flex-wrap: nowrap; }
+
+.block {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px; }
+  .block .box {
+    max-width: 100%;
+    width: 100%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-1 {
+    width: 8.3333333333%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-2 {
+    width: 16.6666666667%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-3 {
+    width: 25%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-4 {
+    width: 33.3333333333%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-5 {
+    width: 41.6666666667%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-6 {
+    width: 50%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-7 {
+    width: 58.3333333333%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-8 {
+    width: 66.6666666667%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-9 {
+    width: 75%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-10 {
+    width: 83.3333333333%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-11 {
+    width: 91.6666666667%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-12 {
+    width: 100%;
+    padding: 0 15px;
+    border: 1px solid red; }
+
+@media (min-width: 0) and (max-width: 468px) {
+  .wrapper {
+    width: 100%; }
+
+  .block.block-no-wrap {
+    flex-wrap: wrap; }
+
+  .block .box-xs-1 {
+    width: 8.3333333333%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-xs-2 {
+    width: 16.6666666667%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-xs-3 {
+    width: 25%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-xs-4 {
+    width: 33.3333333333%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-xs-5 {
+    width: 41.6666666667%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-xs-6 {
+    width: 50%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-xs-7 {
+    width: 58.3333333333%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-xs-8 {
+    width: 66.6666666667%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-xs-9 {
+    width: 75%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-xs-10 {
+    width: 83.3333333333%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-xs-11 {
+    width: 91.6666666667%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-xs-12 {
+    width: 100%;
+    padding: 0 15px;
+    border: 1px solid red; } }
+@media (min-width: 468px) and (max-width: 768px) {
+  .wrapper {
+    width: 100%; }
+
+  .block .box-sm-1 {
+    width: 8.3333333333%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-sm-2 {
+    width: 16.6666666667%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-sm-3 {
+    width: 25%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-sm-4 {
+    width: 33.3333333333%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-sm-5 {
+    width: 41.6666666667%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-sm-6 {
+    width: 50%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-sm-7 {
+    width: 58.3333333333%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-sm-8 {
+    width: 66.6666666667%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-sm-9 {
+    width: 75%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-sm-10 {
+    width: 83.3333333333%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-sm-11 {
+    width: 91.6666666667%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-sm-12 {
+    width: 100%;
+    padding: 0 15px;
+    border: 1px solid red; } }
+@media (min-width: 768px) and (max-width: 990px) {
+  .wrapper {
+    width: 768px; }
+
+  .block .box-md-1 {
+    width: 8.3333333333%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-md-2 {
+    width: 16.6666666667%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-md-3 {
+    width: 25%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-md-4 {
+    width: 33.3333333333%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-md-5 {
+    width: 41.6666666667%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-md-6 {
+    width: 50%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-md-7 {
+    width: 58.3333333333%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-md-8 {
+    width: 66.6666666667%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-md-9 {
+    width: 75%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-md-10 {
+    width: 83.3333333333%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-md-11 {
+    width: 91.6666666667%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-md-12 {
+    width: 100%;
+    padding: 0 15px;
+    border: 1px solid red; } }
+@media (min-width: 990px) and (max-width: 1200px) {
+  .wrapper {
+    width: 990px; }
+
+  .block .box-lg-1 {
+    width: 8.3333333333%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-lg-2 {
+    width: 16.6666666667%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-lg-3 {
+    width: 25%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-lg-4 {
+    width: 33.3333333333%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-lg-5 {
+    width: 41.6666666667%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-lg-6 {
+    width: 50%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-lg-7 {
+    width: 58.3333333333%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-lg-8 {
+    width: 66.6666666667%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-lg-9 {
+    width: 75%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-lg-10 {
+    width: 83.3333333333%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-lg-11 {
+    width: 91.6666666667%;
+    padding: 0 15px;
+    border: 1px solid red; }
+  .block .box-lg-12 {
+    width: 100%;
+    padding: 0 15px;
+    border: 1px solid red; } }
+
+/*# sourceMappingURL=main.css.map */

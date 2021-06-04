@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box; }
+
+.wrapper .block .box, .btn-group .btn-success, .btn-group .btn-danger, .btn-group .btn-warning, .btn-group .btn-primary, .btn-group .btn-info, .btn-group .btn-dark {
+  transition: all 0.25s linear;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.05); }
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal; }
+  .wrapper .block {
+    display: flex;
+    justify-content: space-between; }
+    .wrapper .block .box {
+      border-radius: 4px;
+      background-color: #f1f1f1;
+      border: 1px solid #dedede;
+      width: 30%;
+      padding: 1rem;
+      transition: all 0.25s linear; }
+      .wrapper .block .box:hover {
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); }
+
+.btn-group {
+  margin: 1rem 0; }
+  .btn-group .btn {
+    padding: 0.75rem 1.25rem;
+    border-radius: 4px;
+    border: none; }
+  .btn-group .btn-success {
+    background-color: #51e172;
+    color: #ffffff; }
+    .btn-group .btn-success:focus {
+      outline: none;
+      opacity: 0.8; }
+    .btn-group .btn-success:hover {
+      box-shadow: 0 10px 20px #51e172; }
+    .btn-group .btn-success.sm {
+      /* .btn-danger.sm */
+      font-size: 8px; }
+    .btn-group .btn-success.lg {
+      font-size: 20px; }
+  .btn-group .btn-danger {
+    background-color: #e1415f;
+    color: #ffffff; }
+    .btn-group .btn-danger:focus {
+      outline: none;
+      opacity: 0.8; }
+    .btn-group .btn-danger:hover {
+      box-shadow: 0 10px 20px #e1415f; }
+    .btn-group .btn-danger.sm {
+      /* .btn-danger.sm */
+      font-size: 8px; }
+    .btn-group .btn-danger.lg {
+      font-size: 20px; }
+  .btn-group .btn-warning {
+    background-color: #e1a21a;
+    color: #000; }
+    .btn-group .btn-warning:focus {
+      outline: none;
+      opacity: 0.8; }
+    .btn-group .btn-warning:hover {
+      box-shadow: 0 10px 20px #e1a21a; }
+    .btn-group .btn-warning.sm {
+      /* .btn-danger.sm */
+      font-size: 8px; }
+    .btn-group .btn-warning.lg {
+      font-size: 20px; }
+  .btn-group .btn-primary {
+    background-color: #6464f4;
+    color: #fff; }
+    .btn-group .btn-primary:focus {
+      outline: none;
+      opacity: 0.8; }
+    .btn-group .btn-primary:hover {
+      box-shadow: 0 10px 20px #6464f4; }
+    .btn-group .btn-primary.sm {
+      /* .btn-danger.sm */
+      font-size: 8px; }
+    .btn-group .btn-primary.lg {
+      font-size: 20px; }
+  .btn-group .btn-info {
+    background-color: #5dd5f4;
+    color: #fff; }
+    .btn-group .btn-info:focus {
+      outline: none;
+      opacity: 0.8; }
+    .btn-group .btn-info:hover {
+      box-shadow: 0 10px 20px #5dd5f4; }
+    .btn-group .btn-info.sm {
+      /* .btn-danger.sm */
+      font-size: 8px; }
+    .btn-group .btn-info.lg {
+      font-size: 20px; }
+  .btn-group .btn-dark {
+    background-color: #44414d;
+    color: #fff; }
+    .btn-group .btn-dark:focus {
+      outline: none;
+      opacity: 0.8; }
+    .btn-group .btn-dark:hover {
+      box-shadow: 0 10px 20px #44414d; }
+    .btn-group .btn-dark.sm {
+      /* .btn-danger.sm */
+      font-size: 8px; }
+    .btn-group .btn-dark.lg {
+      font-size: 20px; }
+
+/*# sourceMappingURL=main.css.map */

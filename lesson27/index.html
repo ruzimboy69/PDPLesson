@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 32</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row my-5">
+        <div class="col-md-4">
+            <div class="card">
+
+                <div class="card-header bg-dark text-white text-center">
+                    <h4>Student qo'shish</h4>
+                </div>
+
+                <div class="card-body">
+                    <form name="myForm">
+                        <input type="text" placeholder="Ism" class="form-control my-2" name="firstName">
+                        <input type="text" placeholder="Familiya" class="form-control my-2" name="lastName">
+                        <input type="number" placeholder="Yosh" class="form-control my-2" name="age">
+                        <input type="number" placeholder="Guruh" class="form-control my-2" name="group">
+                    </form>
+                </div>
+
+                <div class="card-footer">
+                    <button onclick="addStudent()" type="button" class="btn btn-dark text-white btn-block">Student qo'shish</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-8">
+            <table class="table table-dark">
+                <thead>
+                <tr>
+                    <th>TR</th>
+                    <th>Ismi</th>
+                    <th>Familiyasi</th>
+                    <th>Yoshi</th>
+                    <th>Guruhi</th>
+                    <th>Action</th>
+                </tr>
+                </thead>
+                <tbody id="studentList">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/jquery.js"></script>
+<script src="js/src/popover.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

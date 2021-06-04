@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 18 | Bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+
+
+<div class="container">
+    <div class="row my-4">
+        <div class="col-4">
+            <div class="card">
+                <img src="images/java.jpg" class="card-img" alt="">
+                <div class="card-img-overlay text-white align-items-end d-flex">
+                    <h4>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Qui, voluptatum!
+                    </h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-8">
+            <form action="#">
+                <div class="form-group">
+                    <label for="title">Sarlavha</label>
+                    <input class="form-control" type="text" id="title" placeholder="Sarlavha">
+                </div>
+
+                <div class="form-group">
+                    <label for="text">Mazmuni</label>
+                    <textarea class="form-control" id="text" placeholder="Mazmuni"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="category">Kategoriyani tanlang</label>
+                    <select class="form-control" id="category">
+                        <option value="1">Kat 1</option>
+                        <option value="1">Kat 2</option>
+                        <option value="1">Kat 3</option>
+                        <option value="1">Kat 4</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="switch">
+                        <label for="switch" class="custom-control-label">
+                            Avto habar berish
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                     <div class="custom-control custom-file">
+                         <input type="file" id="files" class="custom-file-input">
+                         <label for="files" class="custom-file-label">File ni tanlang</label>
+                     </div>
+                </div>
+                <div class="input-group mb-3">
+
+                    <div class="input-group-prepend">
+                        <label for="url" class="input-group-text">https://</label>
+                    </div>
+
+                    <input type="text" class="form-control" id="url" placeholder="Max 100 simvol">
+
+                    <div class="input-group-append">
+                        <label for="url" class="input-group-text">.com</label>
+                    </div>
+
+
+                </div>
+
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Qidiruv">
+                    <select class="form-control">
+                        <option value="1">Barchasi</option>
+                        <option value="1">Texnika</option>
+                        <option value="1">Avto</option>
+                    </select>
+                    <div class="input-group-append">
+                        <button type="button" class="btn btn-success">Qidiruv</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <ul class="nav justify-content-end">
+        <li class="nav-item"><a href="#" class="nav-link">Sayt haritasi</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">RSS</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Aloqa</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Reklama</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Kun mavzusi</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Kun.uz jamoasi</a></li>
+    </ul>
+
+    <div class="row my-4">
+        <div class="col-12 col-md-4 col-lg-6 offset-0 offset-md-0 offset-lg-3">
+            <div class="alert alert-danger fade show">
+                <strong>Error!</strong>
+                <button type="button" class="close" data-dismiss="alert">
+                    &times;
+                </button>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, vitae?
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-4">
+            <div class="dropup">
+                <button type="button" class="btn btn-outline-dark dropdown-toggle" data-toggle="dropdown">
+                    UZ
+                </button>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">UZ</a>
+                    <a href="#" class="dropdown-item">RU</a>
+                    <a href="#" class="dropdown-item">EN</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+<script src="js/jQuery.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lesson 20 | Bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div class="container">
+    <nav class="navbar bg-dark navbar-dark navbar-expand-sm">
+
+        <a href="#" class="navbar-brand">
+            <span class="d-none d-md-none d-lg-inline">Personal Development Process</span>
+            <span class="d-inline-block d-md-inline d-lg-none">PDP</span>
+        </a>
+
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a href="#" class="nav-link active">Kurslar</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Biz haqimizda</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Tadbirlar</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Ishanov Baxodir</a></li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="carousel slide my-4" data-ride="carousel" id="myCarousel" data-interval="2000">
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <h4>Java development</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum eveniet laudantium odio quae quis?
+                    Beatae cupiditate, et expedita facilis laborum, libero necessitatibus possimus quam reiciendis
+                    repudiandae rerum sapiente sequi vel.
+                </p>
+            </div>
+            <div class="carousel-item">
+                <h4>Python development</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum eveniet laudantium odio quae quis?
+                    Beatae cupiditate, et expedita facilis laborum, libero necessitatibus possimus quam reiciendis
+                    repudiandae rerum sapiente sequi vel.
+                </p>
+            </div>
+            <div class="carousel-item">
+                <h4>JavaScript development</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum eveniet laudantium odio quae quis?
+                    Beatae cupiditate, et expedita facilis laborum, libero necessitatibus possimus quam reiciendis
+                    repudiandae rerum sapiente sequi vel.
+                </p>
+            </div>
+        </div>
+
+        <ul class="carousel-indicators">
+            <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+            <li data-slide-to="1" data-target="#myCarousel"></li>
+            <li data-slide-to="2" data-target="#myCarousel"></li>
+        </ul>
+
+        <a href="#" class="carousel-control-prev bg-dark" data-slide="prev" data-target="#myCarousel">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+
+        <a href="#" class="carousel-control-next bg-dark" data-slide="next" data-target="#myCarousel">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#signIn">
+        Ro'yxatdan o'tish
+    </button>
+
+    <div class="modal fade" id="signIn">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    Tizimga kirish
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="login">Login</label>
+                        <input type="text" class="form-control" id="login" placeholder="Login">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Password">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success">Sign in</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="js/jQuery.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

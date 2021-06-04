@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 17 | Bootstrap </title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row my-4">
+        <div class="col-4">
+            <img src="images/test.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col-4">
+            <img src="images/test.jpg" class="img-fluid img-thumbnail" alt="">
+        </div>
+        <div class="col-4">
+            <img src="images/test.jpg" class="img-fluid rounded border border-danger" alt="">
+        </div>
+    </div>
+    <div class="my-4">
+        <a href="#" class="btn btn-primary">Login</a>
+        <a href="#" class="btn btn-danger">Logout</a>
+        <a href="#" class="btn btn-warning">Logout</a>
+        <a href="#" class="btn btn-info">Logout</a>
+        <a href="#" class="btn btn-dark">Logout</a>
+        <a href="#" class="btn btn-secondary disabled">Logout</a>
+
+        <button type="button" class="btn btn-outline-success btn-lg">Click me!</button>
+        <button type="button" class="btn btn-outline-danger active">Click me!</button>
+        <button type="button" class="btn btn-outline-info btn-sm">Click me!</button>
+        <button type="button" class="btn btn-outline-primary disabled" disabled>Click me!</button>
+    </div>
+    <div class="my-4">
+
+        <div class="btn-group">
+            <a href="#" class="btn btn-outline-primary">Step 1</a>
+            <a href="#" class="btn btn-outline-primary">Step 2</a>
+            <a href="#" class="btn btn-outline-primary">Step 3</a>
+            <a href="#" class="btn btn-outline-primary">Step 4</a>
+            <a href="#" class="btn btn-outline-primary active">Step 5</a>
+            <a href="#" class="btn btn-outline-primary disabled">Step 6</a>
+        </div>
+
+        <div class="btn-group-vertical">
+            <a href="#" class="btn btn-outline-primary">Step 1</a>
+            <a href="#" class="btn btn-outline-primary">Step 2</a>
+            <a href="#" class="btn btn-outline-primary">Step 3</a>
+            <a href="#" class="btn btn-outline-primary">Step 4</a>
+            <a href="#" class="btn btn-outline-primary active">Step 5</a>
+            <a href="#" class="btn btn-outline-primary disabled">Step 6</a>
+        </div>
+
+    </div>
+
+    <div class="my-4">
+        <ul class="pagination justify-content-center">
+            <li class="page-item disabled"><a href="#" class="page-link">Prev</a></li>
+            <li class="page-item active"><a href="#" class="page-link">1</a></li>
+            <li class="page-item"><a href="#" class="page-link">2</a></li>
+            <li class="page-item"><a href="#" class="page-link">3</a></li>
+            <li class="page-item"><a href="#" class="page-link">...</a></li>
+            <li class="page-item"><a href="#" class="page-link">98</a></li>
+            <li class="page-item"><a href="#" class="page-link">99</a></li>
+            <li class="page-item"><a href="#" class="page-link">100</a></li>
+            <li class="page-item"><a href="#" class="page-link">Next</a></li>
+        </ul>
+    </div>
+
+    <div class="my-4">
+        <div class="progress">
+            <div id="progress" class="progress-bar bg-success progress-bar-striped progress-bar-animated"
+                 style="width: 25%;"></div>
+        </div>
+
+        <div class="progress mt-3">
+            <div class="progress-bar bg-danger">PDF files 5%</div>
+            <div class="progress-bar bg-primary">Img files 25%</div>
+            <div class="progress-bar bg-success" style="width: 18%">Other files 18%</div>
+        </div>
+    </div>
+
+    <div class="row my-4">
+        <div class="col-4">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item list-group-item-action">Narx</li>
+                <li class="list-group-item list-group-item-action">Brend</li>
+                <li class="list-group-item list-group-item-action">Auditoriya</li>
+                <li class="list-group-item">Protsessor</li>
+                <li class="list-group-item">Dislay</li>
+                <li class="list-group-item">
+                    Tezkor hotira <span class="badge badge-warning badge-pill">8</span>
+                </li>
+                <li class="list-group-item">
+                    Doimiy hotira <span class="badge badge-success">100</span>
+                </li>
+            </ul>
+        </div>
+        <div class="col-8">
+            <span class="spinner-border"></span>
+            <span class="spinner-border text-danger"></span>
+            <span class="spinner-border text-warning"></span>
+            <span class="spinner-border text-success"></span>
+
+            <span class="spinner-grow"></span>
+            <span class="spinner-grow text-info"></span>
+            <span class="spinner-grow text-dark"></span>
+            <span class="spinner-grow text-primary"></span>
+
+            <button type="button" class="btn btn-success">
+                <span class="spinner-border spinner-border-sm"></span> Loading...
+            </button>
+        </div>
+    </div>
+
+    <div class="row my-4">
+        <div class="col-4">
+            <div class="card">
+                <div class="card-body">
+                    <img src="images/test.jpg" class="img-fluid" alt="">
+                    <h4 class="text-center">
+                        Lorem ipsum dolor sit amet.
+                    </h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequuntur dicta doloribus
+                        ea eligendi est eveniet, ipsa, molestias nam nisi nostrum optio pariatur quod recusandae
+                        reprehenderit sapiente suscipit vel voluptate?
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <div class="card-header">
+                    Lesson 17
+                </div>
+                <div class="card-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquam culpa doloremque dolorum
+                    ex maiores minima rem repellat sequi vitae. Consectetur cupiditate dolor est ipsa laboriosam sequi
+                    tempora tenetur voluptatem!
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn btn-success">Read more</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <img src="images/test.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet assumenda at aut autem cupiditate
+                    delectus dolorum eius facere fuga hic iste nisi quisquam reiciendis, repellat reprehenderit tenetur
+                    voluptates? Pariatur, quibusdam.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-group">
+        <div class="card">
+            <div class="card-body">
+                <img src="images/test.jpg" class="img-fluid" alt="">
+                <h4 class="text-center">
+                    Lorem ipsum dolor sit amet.
+                </h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequuntur dicta doloribus
+                    ea eligendi est eveniet, ipsa, molestias nam nisi nostrum optio pariatur quod recusandae
+                    reprehenderit sapiente suscipit vel voluptate?
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <img src="images/test.jpg" class="img-fluid" alt="">
+                <h4 class="text-center">
+                    Lorem ipsum dolor sit amet.
+                </h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequuntur dicta doloribus
+                    ea eligendi est eveniet, ipsa, molestias nam nisi nostrum optio pariatur quod recusandae
+                    reprehenderit sapiente suscipit vel voluptate?
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <img src="images/test.jpg" class="img-fluid" alt="">
+                <h4 class="text-center">
+                    Lorem ipsum dolor sit amet.
+                </h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequuntur dicta doloribus
+                    ea eligendi est eveniet, ipsa, molestias nam nisi nostrum optio pariatur quod recusandae
+                    reprehenderit sapiente suscipit vel voluptate?
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <img src="images/test.jpg" class="img-fluid" alt="">
+                <h4 class="text-center">
+                    Lorem ipsum dolor sit amet.
+                </h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequuntur dicta doloribus
+                    ea eligendi est eveniet, ipsa, molestias nam nisi nostrum optio pariatur quod recusandae
+                    reprehenderit sapiente suscipit vel voluptate?
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-deck mt-4">
+        <div class="card">
+            <div class="card-body">
+                <img src="images/test.jpg" class="img-fluid" alt="">
+                <h4 class="text-center">
+                    Lorem ipsum dolor sit amet.
+                </h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequuntur dicta doloribus
+                    ea eligendi est eveniet, ipsa, molestias nam nisi nostrum optio pariatur quod recusandae
+                    reprehenderit sapiente suscipit vel voluptate?
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <img src="images/test.jpg" class="img-fluid" alt="">
+                <h4 class="text-center">
+                    Lorem ipsum dolor sit amet.
+                </h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequuntur dicta doloribus
+                    ea eligendi est eveniet, ipsa, molestias nam nisi nostrum optio pariatur quod recusandae
+                    reprehenderit sapiente suscipit vel voluptate?
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <img src="images/test.jpg" class="img-fluid" alt="">
+                <h4 class="text-center">
+                    Lorem ipsum dolor sit amet.
+                </h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequuntur dicta doloribus
+                    ea eligendi est eveniet, ipsa, molestias nam nisi nostrum optio pariatur quod recusandae
+                    reprehenderit sapiente suscipit vel voluptate?
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <img src="images/test.jpg" class="img-fluid" alt="">
+                <h4 class="text-center">
+                    Lorem ipsum dolor sit amet.
+                </h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequuntur dicta doloribus
+                    ea eligendi est eveniet, ipsa, molestias nam nisi nostrum optio pariatur quod recusandae
+                    reprehenderit sapiente suscipit vel voluptate?
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    let i = 0;
+    const timer = setInterval(() => {
+        if (i >= 100) {
+            clearInterval(timer);
+        }
+        i++;
+        document.getElementById("progress").style.width = `${i}%`;
+        document.getElementById("progress").innerText = `${i}%`;
+    }, 1000);
+</script>
+</body>
+</html>

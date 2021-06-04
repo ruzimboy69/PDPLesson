@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 30 | JS</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row my-3">
+        <div class="col">
+            <input type="text" class="form-control" id="a" placeholder="A">
+        </div>
+        <div class="col">
+            <input type="text" class="form-control" id="b" placeholder="B">
+        </div>
+        <div class="col">
+            <select class="form-control" id="select" onchange="calc()">
+                <option value="">Amallarni tanlang</option>
+                <option value="*">Ko'paytirish</option>
+                <option value="-">Ayirish</option>
+                <option value="/">Bo'lish</option>
+                <option value="+">Qo'shish</option>
+            </select>
+        </div>
+        <div class="col">
+            <button type="button" class="btn btn-success" onclick="calc()">
+                Hisoblash
+            </button>
+        </div>
+    </div>
+    <h4 id="result"></h4>
+    <div class="row my-5">
+        <div class="col">
+
+            <div class="custom-control custom-switch mb-3">
+                <input type="checkbox" id="switch" class="custom-control-input" onchange="iAgger()">
+                <label for="switch" class="custom-control-label">Tizim shartlariga roziman!</label>
+            </div>
+
+            <button type="button" class="btn btn-success disabled" disabled id="save_button">
+                Save
+            </button>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <label for="text">Max. 1000 simvol</label>
+            <textarea id="text" class="form-control" onkeyup="count()"></textarea>
+            <p> <span id="real">0</span> ta simvol kiritdingiz! Qoldi <span id="all">1000</span> ta!</p>
+        </div>
+    </div>
+</div>
+
+<script src="js/jQuery.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

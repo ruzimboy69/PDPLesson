@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 19 | Bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row my-4">
+        <div class="col">
+            <button type="button" class="btn btn-success" data-toggle="collapse"
+                    data-target="#myId">
+                Click me!
+            </button>
+            <div class="mt-3 border p-3 collapse" id="myId">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa doloribus ipsa laboriosam laborum quia,
+                suscipit voluptas! Impedit itaque molestias necessitatibus nisi reiciendis. Dolore eaque iste, obcaecati
+                officiis reprehenderit sed totam.
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="card" id="parent">
+                <div class="card-header" data-toggle="collapse" data-target="#blockOne">
+                    Frontend kursi
+                </div>
+                <div class="card-body collapse show" data-parent="#parent" id="blockOne">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Deleniti distinctio dolore doloremque
+                    maiores quam reprehenderit.
+                </div>
+
+                <div class="card-header" data-toggle="collapse" data-target="#blockTwo">
+                    Backend development
+                    <span>+</span>
+                    <span>-</span>
+                </div>
+                <div class="card-body collapse" data-parent="#parent" id="blockTwo">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Ad delectus eveniet hic impedit quo quod.
+                </div>
+            </div>
+        </div>
+    </div>
+    <ul class="nav nav-tabs mt-3">
+        <li class="nav-item"><a href="#" data-toggle="tab" data-target="#tabOne" class="nav-link active">Statistika</a>
+        </li>
+        <li class="nav-item"><a href="#" data-toggle="tab" data-target="#tabTwo" class="nav-link">Savollar va
+            natijalar</a></li>
+        <li class="nav-item"><a href="#" data-toggle="tab" data-target="#tabThree" class="nav-link">Foydali
+            manbaalar</a></li>
+    </ul>
+    <div class="tab-content">
+        <div class="tab-pane p-3 border-left border-right border-bottom fade show active" id="tabOne">
+            <h4>Tab content 1</h4>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium asperiores beatae corporis est in
+            labore maxime quis soluta. Aliquid explicabo ipsa mollitia veniam veritatis! Accusantium ad exercitationem
+            odio. Laborum, sequi.
+        </div>
+        <div class="tab-pane p-3 border-left border-right border-bottom fade" id="tabTwo">
+            <h4>Tab content 2</h4>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium asperiores beatae corporis est in
+            labore maxime quis soluta. Aliquid explicabo ipsa mollitia veniam veritatis! Accusantium ad exercitationem
+            odio. Laborum, sequi.
+        </div>
+        <div class="tab-pane p-3 border-left border-right border-bottom fade" id="tabThree">
+            <h4>Tab content 3</h4>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium asperiores beatae corporis est in
+            labore maxime quis soluta. Aliquid explicabo ipsa mollitia veniam veritatis! Accusantium ad exercitationem
+            odio. Laborum, sequi.
+        </div>
+    </div>
+
+    <button type="button" class="btn btn-success mt-3" title="Bu tizimdan chiqish uchun"
+            data-toggle="tooltip" data-placement="left">
+        Hover me!
+    </button>
+</div>
+
+<script src="js/jQuery.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.js"></script>
+<script>
+
+    $(document).ready(function () {
+        $("[data-toggle='tooltip']").tooltip();
+    })
+
+</script>
+</body>
+</html>

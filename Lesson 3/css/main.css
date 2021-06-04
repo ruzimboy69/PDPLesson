@@ -1,0 +1,43 @@
+a{
+    background-color: black;
+}
+/*p, section, nav{*/
+/*    color: red;*/
+/*}*/
+
+.color-red{
+    color: red;
+}
+
+#my-id, #my-id-1, .color-red, section{
+    background-color: black;
+    color: white;
+}
+
+#my-list{
+    color: yellow;
+}
+
+.list{
+    color: green;
+}
+
+ul{
+    color: red!important;
+}
+
+* {
+    background-color: white;
+}
+div > * p{
+    color: indianred;
+}
+table tr:nth-child(odd), ol li:not(.no-color){
+    color:red;
+}
+.text-muted:not(.no-color) {
+    color: grey;
+}
+/*.order-list li:first-child, .order-list li:last-child{*/
+/*    color:red;*/
+/*}*/

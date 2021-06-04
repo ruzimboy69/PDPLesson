@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+%effect {
+  transition: all 0.25s linear;
+  box-shadow: 0 0 5px rgba(0,0,0,0.05);
+  -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.05);
+}
+
+
+.wrapper{
+  width: 1200px;
+  margin: 0 auto;
+  font:{
+    size: 14px;
+    family: "Montserrat", sans-serif;
+    weight: normal;
+  }
+  .block{
+    display: flex;
+    justify-content: space-between;
+    .box{
+      border-radius: 4px;
+      background-color: #f1f1f1;
+      border: 1px solid #dedede;
+      width: 30%;
+      padding: 1rem;
+      transition: all 0.25s linear;
+      @extend %effect;
+
+      &:hover{
+        box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+      }
+    }
+  }
+}
+
+$success: #51e172;
+$danger: #e1415f;
+$warning: #e1a21a;
+
+
+@mixin btn-style($bg-color, $color){
+  background-color: $bg-color;
+  color: $color;
+  @extend %effect;
+  &:focus{
+    outline: none;
+    opacity: 0.8;
+  }
+  &:hover{
+    box-shadow: 0 10px 20px $bg-color;
+  }
+  &.sm{ /* .btn-danger.sm */
+    font-size: 8px;
+  }
+  &.lg{
+    font-size: 20px;
+  }
+}
+
+.btn-group{
+  margin: 1rem 0;
+  .btn{
+    padding: 0.75rem 1.25rem;
+    border-radius: 4px;
+    border: none;
+  }
+  .btn-success{
+    @include btn-style($success, #ffffff);
+  }
+  .btn-danger{
+    @include btn-style($danger, #ffffff);
+  }
+  .btn-warning{
+    @include btn-style($warning, #000);
+  }
+  .btn-primary{
+    @include btn-style(#6464f4, #fff);
+  }
+  .btn-info{
+    @include btn-style(#5dd5f4, #fff);
+  }
+  .btn-dark{
+    @include btn-style(#44414d, #fff);
+  }
+}

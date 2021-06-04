@@ -1,0 +1,9 @@
+.carousel-indicators li{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: rebeccapurple;
+}
+.carousel-indicators {
+    bottom: -50px;
+}

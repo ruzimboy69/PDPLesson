@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row my-5">
+        <div class="col-md-4 offset-4">
+            <div class="card">
+                <div class="card-header text-center">
+                    <h4>Calculator</h4>
+                </div>
+
+                <div class="card-body">
+                    <input type="number" id="input" class="form-control disabled" disabled readonly>
+
+                    <div class="box">
+                        <button onclick="raqam('7')" type="button" class="btn btn-light">7</button>
+                        <button onclick="raqam('8')" type="button" class="btn btn-light">8</button>
+                        <button onclick="raqam('9')" type="button" class="btn btn-light">9</button>
+                        <button onclick="amal('*')" type="button" class="btn btn-light">*</button>
+                    </div>
+
+                    <div class="box">
+                        <button onclick="raqam('4')" type="button" class="btn btn-light">4</button>
+                        <button onclick="raqam('5')" type="button" class="btn btn-light">5</button>
+                        <button onclick="raqam('6')" type="button" class="btn btn-light">6</button>
+                        <button onclick="amal('-')" type="button" class="btn btn-light">-</button>
+                    </div>
+
+                    <div class="box">
+                        <button onclick="raqam('1')" type="button" class="btn btn-light">1</button>
+                        <button onclick="raqam('2')" type="button" class="btn btn-light">2</button>
+                        <button onclick="raqam('3')" type="button" class="btn btn-light">3</button>
+                        <button onclick="amal('+')" type="button" class="btn btn-light">+</button>
+                    </div>
+
+                    <div class="box">
+                        <button onclick="raqam('0')" type="button" class="btn btn-light">0</button>
+                        <button onclick="tozalash()" type="button" class="btn btn-light">c</button>
+                        <button onclick="amal('/')" type="button" class="btn btn-light">/</button>
+                        <button onclick="natija()" type="button" class="btn btn-light">=</button>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/jquery.js"></script>
+<script src="js/src/popover.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/calculator.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+h4{
+    font-size: 32px;
+    font-weight: normal; /* 100 ~ 900 ; normal, bold, bolder*/
+    font-family: "Montserrat", "Ebrima", "Roboto", sans-serif;
+    font-style: normal; /* italic, normal (default)*/
+    /*border-right: 2px solid #808080; !*solid, dotted, dashed,double*!*/
+    /*border: 2px solid #808080; !*solid, dotted, dashed,double*!*/
+    text-align: justify;
+    text-decoration: none; /*underline,overline, line-through*/
+    text-transform: capitalize; /*uppercase, lowercase, capitalize*/
+}
+a{
+    text-decoration: none;
+    background-color: rebeccapurple;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 0.75rem 1rem;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 12px;
+    /*border-radius: 0px 0px 15px 15px;*/
+    /*border-top-left-radius: 15px;*/
+    /*border-top-right-radius: 15px;*/
+}
+span{
+    color: indianred;
+}
+/*.menu{*/
+/*    text-align: center;*/
+/*}*/
+.menu li{
+    display: inline-block;
+    margin: 15px;
+}
+.block{
+    display: inline-block;
+    width: 20%;
+    height: 353px;
+    border: 1px solid #909090;
+    padding: 1rem;
+    margin-right: 4%;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+h1{
+    line-height: 72px;
+    vertical-align: middle;
+}
+.box{
+    display: flex;
+}
+.box div{
+    border: 1px solid #909090;
+    padding: 1rem;
+    box-sizing: border-box;
+    width: 30%;
+    margin-right: 3%;
+    margin-top: 1rem;
+}
+
+

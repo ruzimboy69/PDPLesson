@@ -1,0 +1,33 @@
+:root{
+  --bule: #985685;
+  --test: 15px;
+}
+body{
+    color: var(--bule);
+    font-size: var(--test);
+}
+.card-header span:first-child{
+    display: none;
+}
+.collapsed span:first-child{
+    display: inline-block;
+}
+.collapsed span:last-child{
+    display: none;
+}
+.tab-content{
+    overflow: hidden;
+}
+.tab-content .active{
+    animation: bc 2s forwards 1;
+}
+
+@keyframes bc {
+    from{
+        /*background-color: red;*/
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}

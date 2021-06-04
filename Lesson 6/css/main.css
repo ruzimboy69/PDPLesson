@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+    /*border: 1px solid red;*/
+}
+.block{
+    display: flex;
+    justify-content: space-around;/*flex-start, flex-end, center, space-between*/
+    align-items: center;/*stretch (default),center, flex-end, flex-start*/
+    flex-direction: row;
+}
+.image{
+    width: 100%;
+}
+.box{
+    width: 30%;
+    border: 1px solid rgba(80,80,80,0.1);
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+}
+
+.user-name{
+    width: 100%;
+    display: block;
+    padding: 0.75rem 1rem;
+    border: 1px solid rgba(80,80,80,0.1);
+    border-radius: 4px;
+}
+.user-name::placeholder{
+    color: indianred;
+    font-size: 12px;
+    font-family: "Fira Code", sans-serif;
+}
+label{
+    margin-top: 0.75rem;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+}
+label::after{
+    content: "";
+    width: 6px;
+    height: 6px;
+    background-color: indianred;
+    border-radius: 50%;
+    border: 2px solid rebeccapurple;
+    display: inline-block;
+}
+
+label::after{
+
+}
+
+

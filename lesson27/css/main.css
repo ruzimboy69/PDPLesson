@@ -1,0 +1,21 @@
+input {
+    height: 50px;
+    background-color: transparent !important;
+    text-align: right;
+}
+
+.box {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 22%;
+    height: 50px;
+}
+
+.card {
+    border: none;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5);
+}

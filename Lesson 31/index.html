@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 31 | JavaScript</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row my-4">
+        <div class="col-12">
+            <label for="son">Soni kiriting</label>
+            <input type="text" class="form-control" id="son" placeholder="Soni kiriting">
+            <button type="button" class="btn btn-success my-4" onclick="addNumber()">Qo'shish</button>
+            <p id="display"></p>
+        </div>
+    </div>
+    <div class="clock">
+        <div class="hh" id="hh"></div>
+        <div class="mm" id="mm"></div>
+        <div class="ss" id="ss"></div>
+    </div>
+    <div class="row my-4">
+        <div class="col">
+            <input type="number" id="alarmHH" class="form-control" max="12" placeholder="Max 12">
+        </div>
+        <div class="col">
+            <input type="number" id="alarmMM" class="form-control" max="60" placeholder="Max 60">
+        </div>
+        <div class="col">
+            <input type="number" id="alarmSS" class="form-control" max="60" placeholder="Max 60">
+        </div>
+        <div class="col">
+            <button type="button" class="btn btn-success" onclick="addAlarm()">Add Alarm</button>
+            <button type="button" class="btn btn-success" onclick="clearAlarm()">Clear Alarm</button>
+            <button type="button" class="btn btn-success" onclick="delayAlarm()">Delay Alarm</button>
+        </div>
+    </div>
+    <audio src="audio/sound.mp3" id="alarm" class="d-none"></audio>
+</div>
+
+<script src="js/jQuery.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
